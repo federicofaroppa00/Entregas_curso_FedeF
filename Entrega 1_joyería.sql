@@ -98,4 +98,7 @@ CREATE TABLE asistencia (
     hora_salida TIME,
     estado VARCHAR(20),
     FOREIGN KEY (id_personal) REFERENCES personal(id_personal)
-);
+);USE joyeria_;
+ALTER TABLE ventas
+ADD COLUMN id_personal INT NOT NULL,
+ADD FOREIGN KEY (id_personal) REFERENCES personal(id_personal);
