@@ -132,7 +132,7 @@ END//
 DELIMITER ;
 
 -- =========================
--- INSERCIONES DE DATOS (COMPLETAS)
+-- INSERCIONES DE DATOS 
 -- =========================
 INSERT INTO clientes (nombre, apellido, email, telefono, direccion) VALUES
 ('Juan', 'Pérez', 'juan.perez@mail.com', '099123456', 'Av. Libertador 123'),
